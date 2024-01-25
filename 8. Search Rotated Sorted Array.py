@@ -4,7 +4,7 @@ def findTarget(nums, target):
   while left <= right:
     
     mid = (left + right) //2
-    print ('M: ',mid,'  L: ',left,'  R: ',right)
+    # print ('M: ',mid,'  L: ',left,'  R: ',right)
     if target == nums[mid]:
       return mid
 
